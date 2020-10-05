@@ -1,0 +1,37 @@
+
+
+]0;syyang@sol28:~[?1034h[syyang@sol28 ~]$ CD[K[Kcd
+]0;syyang@sol28:~[syyang@sol28 ~]$ cd CISC3140
+]0;syyang@sol28:~/CISC3140[syyang@sol28 CISC3140]$ mkdir Repo_2
+]0;syyang@sol28:~/CISC3140[syyang@sol28 CISC3140]$ cd Repo_2
+]0;syyang@sol28:~/CISC3140/Repo_2[syyang@sol28 Repo_2]$ svn co --depth empty https://github.com/hn84909103/CISC3140Lab6.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+Checked out revision 2.
+]0;syyang@sol28:~/CISC3140/Repo_2[syyang@sol28 Repo_2]$ cd CISC3140lAB[K[K[KLab6.git
+]0;syyang@sol28:~/CISC3140/Repo_2/CISC3140Lab6.git[syyang@sol28 CISC3140Lab6.git]$ svn up trunk
+Updating 'trunk':
+A    trunk
+A    trunk/Helloween.java
+A    trunk/README.md
+Updated to revision 2.
+]0;syyang@sol28:~/CISC3140/Repo_2/CISC3140Lab6.git[syyang@sol28 CISC3140Lab6.git]$ svn up --depth empty branches
+Updating 'branches':
+A    branches
+Updated to revision 2.
+]0;syyang@sol28:~/CISC3140/Repo_2/CISC3140Lab6.git[syyang@sol28 CISC3140Lab6.git]$ svn copy trunk branches/repo_2
+A         branches/repo_2
+]0;syyang@sol28:~/CISC3140/Repo_2/CISC3140Lab6.git[syyang@sol28 CISC3140Lab6.git]$ svn commit -m""t"h"i"s" "i"s" "[C[1@ [C[C[C[C[C[C[C[C[Ca" "c"o"m"m"i"t"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"a"d"d"e"d" "n"e"w" "b"r"a"n"c"h"e"s"
+Authentication realm: <https://github.com:443> GitHub
+Password for 'syyang': 
+Authentication realm: <https://github.com:443> GitHub
+Username: hn84909103
+Password for 'hn84909103': 
+
+
+Adding         branches/repo_2
+
+Committed revision 4.
+]0;syyang@sol28:~/CISC3140/Repo_2/CISC3140Lab6.git[syyang@sol28 CISC3140Lab6.git]$ 
+
+
