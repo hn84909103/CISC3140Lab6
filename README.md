@@ -10,14 +10,14 @@ create a file in the directory    	 $ vi file.java
 
 after edited and saved the change in the file
 
-add the file	                	     $ git add --all
+add the file	                	 $ git add --all
 add the commits to the changes     	 $ git commit
 
-add the file to github		        	 $ git remote add origin git@github.com:hn84909103/CISC3140Lab6.git
-create the main branch			         $ git branch -M main
-connect with github			             $ git remote -v
-	                          				( origin	git@github.com:hn84909103/CISC3140Lab6.git (fetch) )
-                          					( origin	git@github.com:hn84909103/CISC3140Lab6.git (push) )
+add the file to github		       	 $ git remote add origin git@github.com:hn84909103/CISC3140Lab6.git
+create the main branch			 $ git branch -M main
+connect with github			 $ git remote -v
+	                          	( origin	git@github.com:hn84909103/CISC3140Lab6.git (fetch) )
+                          		( origin	git@github.com:hn84909103/CISC3140Lab6.git (push) )
 
 switch the SSH TO HTTPS			         $ git remote set-url origin https://github.com/hn84909103/CISC3140Lab6.git		
 connect with github	            		 $ git remote -v
