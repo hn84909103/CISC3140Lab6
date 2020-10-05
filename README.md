@@ -3,32 +3,32 @@
 
 Lab 6-1
 
-- create a directory named Repo_1   	 $ mkdir Repo_1
-- go into the directory Repo_1      	 $ cd Repo_1
-- intitialize git repository        	 $ git init
-- create a file in the directory    	 $ vi file.java
+1. create a directory named Repo_1   	 $ mkdir Repo_1
+2. go into the directory Repo_1      	 $ cd Repo_1
+3. intitialize git repository        	 $ git init
+4. create a file in the directory    	 $ vi file.java
 
-- after edited and saved the change in the file
+5. after edited and saved the change in the file
 
-- add the file	                	 $ git add --all
-- add the commits to the changes     	 $ git commit
+6. add the file	                	 $ git add --all
+7. add the commits to the changes     	 $ git commit
 
-- add the file to github		       	 $ git remote add origin git@github.com:hn84909103/CISC3140Lab6.git
-- create the main branch			 $ git branch -M main
-- connect with github			 $ git remote -v
+8. add the file to github		       	 $ git remote add origin git@github.com:hn84909103/CISC3140Lab6.git
+9. create the main branch			 $ git branch -M main
+10. connect with github			 $ git remote -v
 	                          	( origin	git@github.com:hn84909103/CISC3140Lab6.git (fetch) )
                           		( origin	git@github.com:hn84909103/CISC3140Lab6.git (push) )
 
-- switch the SSH TO HTTPS			         $ git remote set-url origin https://github.com/hn84909103/CISC3140Lab6.git		
-- connect with github	            		 $ git remote -v
+11. switch the SSH TO HTTPS			         $ git remote set-url origin https://github.com/hn84909103/CISC3140Lab6.git		
+12. connect with github	            		 $ git remote -v
 	                          				( origin  https://github.com/hn84909103/CISC3140Lab6.git (fetch) )
                            					( origin  https://github.com/hn84909103/CISC3140Lab6.git (push)	 )
 
-- add the file                  	   	 $ git add --all
-- push to github	              			 $ git push -u origin main
+13. add the file                  	   	 $ git add --all
+14. push to github	              			 $ git push -u origin main
 
-- login github with the username and password
-- done
+15. login github with the username and password
+16. done
 
 
 --------------------------------------------------------------------------------------------------------------
