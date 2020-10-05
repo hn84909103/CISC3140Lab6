@@ -36,14 +36,14 @@ Lab 6-1
 
 Lab 6-2
 
-create a directory named Repo_2   	 $ mkdir Repo_2
-go into the directory Repo_2      	 $ cd Repo_2
-intitialize svn repository	      	 $ svn co --depth https://github.com/hn84909103/CISC3140Lab6.git
-go to CISC3140Lab6.git	        		 $ cd CISC3140Lab6.git
-update trunk		                		 $ svn up trunk
-update branches		              		 $ svn up --depth empty branches
-copy a branch		                		 $ svn copy trunk branches/repo_2
-add a commit	                			 $ svn commit - "messages"
+1. create a directory named Repo_2   	 $ mkdir Repo_2
+2. go into the directory Repo_2      	 $ cd Repo_2
+3. intitialize svn repository	      	 $ svn co --depth https://github.com/hn84909103/CISC3140Lab6.git
+4. go to CISC3140Lab6.git	        		 $ cd CISC3140Lab6.git
+5. update trunk		                		 $ svn up trunk
+6. update branches		              		 $ svn up --depth empty branches
+7. copy a branch		                		 $ svn copy trunk branches/repo_2
+8. add a commit	                			 $ svn commit - "messages"
 
-login github with the username and password
-done
+9. login github with the username and password
+10. done
