@@ -1,7 +1,7 @@
-# CISC3140Lab6
+## CISC3140Lab6
 
 
-Lab 6-1
+#Lab 6-1
 
 create a directory named Repo_1   	 $ mkdir Repo_1
 go into the directory Repo_1      	 $ cd Repo_1
@@ -34,7 +34,7 @@ done
 --------------------------------------------------------------------------------------------------------------
 
 
-Lab 6-2
+#Lab 6-2
 
 create a directory named Repo_2   	 $ mkdir Repo_2
 go into the directory Repo_2      	 $ cd Repo_2
